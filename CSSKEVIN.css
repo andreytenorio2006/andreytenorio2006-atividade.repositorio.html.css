@@ -1,0 +1,74 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(https://img.freepik.com/vetores-premium/preto-escuro-abstrato-plano-arte-de-rua-urbana-estilo-graffiti-ilustracao-vetorial-modelo-de-fundo_214056-1249.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilo para o contêiner principal da ficha */
+.ficha-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Estilo para a imagem do personagem */
+.personagem-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 3px solid lab(80.86% -72.52 47.49);
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Estilos para os títulos */
+.mc kevin  {
+    color: hsl(0, 0%, 100%);
+    font-size: 2.5em;
+    margin: 10px 0 5px;
+}
+
+.personagem-titulo {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Estilo para a biografia */
+.ficha-bio p {
+    line-height: 1.6;
+    color: hsl(0, 0%, 100%);
+}
+
+/* Estilo para a lista de habilidades */
+.ficha-habilidades h3 {
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.ficha-habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ficha-habilidades li {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
