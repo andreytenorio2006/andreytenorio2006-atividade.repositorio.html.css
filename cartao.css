@@ -1,0 +1,36 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 89, 255); /* Fundo azul bem suave (quase branco) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.cartao-container {
+    background-color: #ffffff; /* Fundo branco para o cartão */
+    width: 350px;
+    text-align: center;
+    /* Box Model */
+    border: 2px solid #0e0466; /* Borda em lilás médio */
+    padding: 30px; /* Preenchimento interno */
+    margin: 20px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+}
+.nome-completo {
+    color: #06435f; /* azul escuro para o nome */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cargo {
+    color: #218db8; /* azul médio */
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.contato {
+    color: hwb(192 15% 31%); 
+    font-size: 0.9em;
+}
