@@ -1,0 +1,254 @@
+/* 1. SELETOR UNIVERSAL */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	font-size: 16px; 
+}
+
+/* 2. ESTILOS GERAIS DO BODY */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5; 
+	color: #232ec9;
+	display: flex;
+  flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	min-height: 100vh;
+	padding-top: 20px; 
+}
+
+.conteudo-principal {
+	max-width: 900px; 
+	width: 100%;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px hsl(202, 79%, 26%);
+}
+
+
+.cabecalho {
+	background-color: #222; 
+	color: #fff; 
+	height: 80px;
+	padding: 1rem 2rem; 
+	margin-bottom: 30px; 
+	border: 5px solid #1a68dd; 
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	width: 100%; 
+	position: sticky; 
+	top: 0;
+	z-index: 1000; 
+}
+
+.logo-texto {
+	font-weight: 800;
+	font-size: 2.5rem; /* 64px */
+	font-family: "Bitcount Ink", sans-serif;
+	color: hsl(209, 100%, 50%); 
+}
+
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 1.1rem;
+	transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+	color: #00b1dddc;
+}
+
+/* 4. ESTILIZANDO O CARD DE INFORMAÇÕES (CLASSE E BOX MODEL) */
+.info-card {
+	background-color: hsl(197, 54%, 43%); 
+	border: 2px solid hsl(231, 76%, 29%); 
+	border-radius: 10px;
+	padding: 25px; 
+	margin: 30px auto; 
+	max-width: 450px;
+	text-align: center;
+	box-shadow: 0 4px 8px #23f0ce75; 
+}
+
+.imagem-ilustrativa {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%; 
+	border: 4px solid hsl(209, 46%, 49%); 
+	object-fit: cover; 
+	margin-bottom: 15px; 
+}
+
+.legenda-imagem {
+	font-style: italic;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.link-externo {
+	background-color: hsl(214, 57%, 22%); 
+	color: white; 
+	text-decoration: none; 
+	padding: 10px 20px; 
+	border-radius: 5px;
+	display: inline-block; 
+	margin-top: 10px; 
+	transition: background-color 0.3s ease;
+}
+
+.link-externo:hover {
+	background-color: hsl(184, 65%, 58%);
+}
+
+/* Seção de Títulos e Parágrafos */
+.secao-apresentacao {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.titulo-principal {
+	font-size: 2.8rem;
+	margin-bottom: 10px;
+	color: hwb(189 7% 14%); 
+}
+
+.subtitulo {
+	font-size: 1.8rem;
+	color: #6964b8; 
+	margin-bottom: 20px;
+}
+
+.destaque-rosa {
+	color: #0509ff;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.paragrafo-geral {
+	font-size: 1.1rem;
+	line-height: 1.6;
+	color: #444;
+	margin-top: 15px;
+}
+
+
+.secao-formulario {
+	padding: 30px;
+	background-color: #b1cbe0; 
+	border-radius: 8px;
+	margin-top: 40px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.titulo-formulario {
+	text-align: center;
+	color: #171982; 
+	margin-bottom: 25px;
+	font-size: 2em;
+}
+
+#formulario- {
+	background-color: #fff9c4; 
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid #39dcc1; 
+	display: flex;
+	flex-direction: column; 
+}
+
+#formulario-login label {
+	color: hsl(229, 59%, 33%); 
+	font-weight: bold;
+	margin-top: 15px; 
+	margin-bottom: 5px;
+	display: block; 
+}
+
+#formulario-contato input[type="date"],
+#formulario-contato input[type="text"],
+#formulario-contato input[type="email"],
+#formulario-contato input[type="password"],
+#formulario-contato textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px; 
+	border: 1px solid hwb(236 13% 30%); 
+	border-radius: 5px;
+	font-size: 1rem;
+}
+
+#formulario-contato textarea {
+	resize: vertical; 
+}
+
+#formulario-contato hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #81d5c3, rgba(0, 0, 0, 0));
+	margin: 20px 0;
+}
+
+.botao-envio,
+.botao-reset {
+	padding: 12px 20px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.botao-envio {
+	background-color: hwb(251 3% 0%);
+	color: white;
+}
+
+.botao-envio:hover {
+	background-color: #449696;
+}
+
+.botao-reset {
+	background-color: #e0e0e0;
+	color: #333;
+	margin-left: 10px; 
+}
+
+.botao-reset:hover {
+	background-color: #c0c0c0;
+}
+
+/* Seção de Rodapé do Conteúdo */
+.secao-rodape-conteudo {
+	background-color: #eee;
+	padding: 20px;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 8px;
+}
+
+.secao-rodape-conteudo p {
+	color: #666;
+	margin: 5px 0;
+}
+
+/* Rodapé da Página */
+.rodape-pagina {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.rodape-pagina p {
+	font-size: 0.9rem;
+	margin: 0;
+}
